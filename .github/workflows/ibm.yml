@@ -36,7 +36,6 @@ jobs:
         ./IBM_Cloud_CLI/ibmcloud target --cf
         ./IBM_Cloud_CLI/ibmcloud login -a "https://cloud.ibm.com" -r us-south -u "1210564363@qq.com" -p "JIAO1996.4.25jhj"
         ./IBM_Cloud_CLI/ibmcloud api "https://cloud.ibm.com"
-        ./IBM_Cloud_CLI/ibmcloud target --cf-api "https://api.ng.bluemix.net"
         ./IBM_Cloud_CLI/ibmcloud cf install
     - name: Restart IBM Cloud
       env:
